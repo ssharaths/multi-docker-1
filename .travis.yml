@@ -24,7 +24,6 @@ after_success:
     -   docker push ssharaths/multi-worker-1
 
 deploy:
-    edge: true
     provider: elasticbeanstalk
     region: us-east-2
     app: multi-docker-1
